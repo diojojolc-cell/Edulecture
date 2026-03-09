@@ -42,6 +42,4 @@ Below are the specific source links for the educational videos used in this proj
 
 **Platform: gzclass.gztv.com**
 * [Video Source 4](https://gzclass.gztv.com/gksubjecpc/index2.html?columnName=%E5%88%9D%E4%B8%80&uuid=625&Gradeindex=6)
-* [Video Source 5](https://gzclass.gztv.com/gksubjecpc/index2.html?columnName=%E5%88%9D%E4%B8%80&uuid=625&Gradeindex=6)
-* [Video Source 6](https://gzclass.gztv.com/gksubjecpc/index2.html?columnName=%E5%88%9D%E4%B8%80&uuid=625&Gradeindex=6)
-* [Video Source 7](https://gzclass.gztv.com/gksubjecpc/index2.html?columnName=%E5%88%9D%E4%B8%80&uuid=625&Gradeindex=6)
+
