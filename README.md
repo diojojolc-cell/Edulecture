@@ -1,4 +1,4 @@
-# Edulecture: Fine-Grained Evidence Alignment for Educational Video Retrieval
+# Constructing a Educational Lecture Video Dataset with Fine-Grained Annotations for Video Retrieval Tasks
 
 This repository contains the official implementation and the data of the **Edulecture** project. The focus of this research is on fine-grained evidence alignment for retrieving specific content from long-form educational and STEM videos.
 
