@@ -3,7 +3,7 @@ import torch.nn as nn
 
 
 class process_video_sequence(nn.Module):
-    def __init__(self, input_dim=768, hidden_dim=1024, output_dim=768, max_tokens=12):
+    def __init__(self, input_dim=768, hidden_dim=1024, output_dim=768, max_tokens=2):
         super(process_video_sequence, self).__init__()
 
         self.generator = TemporalTokenGenerator(
