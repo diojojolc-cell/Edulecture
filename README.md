@@ -26,6 +26,20 @@ pip install torch==2.8.0 transformers==4.55.0
 
 The annotations of the dataset are located in the `datasets/` directory.
 
+
+### Dataset Construction
+
+To ensure the high quality and reliability of the data, the construction of the dataset followed a rigorous three-stage pipeline: **Data Collection**, **Segment Extraction**, and **Evidence Annotation**.
+
+#### 1. Data Collection
+We collected long-form educational videos from official K-12 platforms. The videos including Physics, Chemistry, and Biology. 
+
+#### 2. Segment Extraction and Caption Generation
+We partitioned the videos using a strict character-based splitting strategy (implemented in `text_split.py`). Following the segmentation, we utilized Large Language Models (LLMs), specifically GPT-4o, Moonshot-v1, and Gemini-2.5-Pro, to generate high-quality, descriptive captions for each segment.
+
+#### 3. Manual Refinement and Verification
+To ensure the high quality of the dataset, trained human annotators systematically reviewed the machine-generated outputs. The annotators performed necessary merging or re-segmentation of the clips to preserve the semantic completeness of the instructional context.
+
 ### Data Access Policy
 
 * **JSON Annotations (Open Sourced):** We only provide the JSON files containing the text transcripts, temporal boundaries, and evidence labels.
